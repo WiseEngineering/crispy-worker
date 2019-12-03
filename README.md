@@ -1,2 +1,2 @@
 # crispy-worker
-Demon process to run migrations 
+Daemon process to run migrations 
