@@ -16,6 +16,7 @@
     "clean": "rm -rf ./node_modules ./dist && yarn"
   },
   "dependencies": {
+    "apollo-server-express": "2.9.16",
     "express": "4.17.1"
   },
   "devDependencies": {
