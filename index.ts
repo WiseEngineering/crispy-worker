@@ -1,8 +1,8 @@
 import express from 'express';
 import { ApolloServer } from 'apollo-server-express';
 
-import typeDefs from './src/schema/types'
-import resolvers from './src/schema/resolvers'
+import typeDefs from './src/graphq/types'
+import resolvers from './src/graphq/resolvers'
 
 import config from './src/config'
 
