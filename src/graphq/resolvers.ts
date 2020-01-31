@@ -1,6 +1,11 @@
 
+
+const hello = (): string => 'Hello world!'
+
+const Query = {
+  hello
+}
+
 export default {
-  Query: {
-    hello: (): string => 'Hello world!'
-  },
+  Query
 }
