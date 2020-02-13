@@ -4,6 +4,7 @@ export default gql`
 
 input Migration {
   id: ID!
+  jobId: ID!
   name: String!
   data: String!
 }
@@ -11,8 +12,10 @@ input Migration {
 type Job {
   status: String!
   type: String!
-  migrationId: Int!
-  workerId: Int!
+  migrationId: ID!
+  workerId: ID!
+  jobId: ID!
+  processId: ID!
 
 }
 
